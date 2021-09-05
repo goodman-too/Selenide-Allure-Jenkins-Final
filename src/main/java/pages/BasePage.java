@@ -6,7 +6,7 @@ import io.qameta.allure.Step;
 import static com.codeborne.selenide.Selenide.$;
 
 
-public class Header {
+public class BasePage {
     //Locators:
     SelenideElement profileMenuButton = $("a#welcome");
     SelenideElement logoutButton = $("a[href='/index.php/auth/logout']");

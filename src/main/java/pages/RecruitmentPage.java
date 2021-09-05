@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selectors.byXpath;
 import static com.codeborne.selenide.Selenide.$;
 
-public class RecruitmentPage extends Header {
+public class RecruitmentPage extends BasePage {
     //Locators:
     private SelenideElement addCandidateButton = $("input#btnAdd");
     private SelenideElement deleteCandidateButton = $("input#btnDelete");

@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 
-public class LeavePage extends Header {
+public class LeavePage extends BasePage {
     //Locators:
     private SelenideElement assignLeaveButton = $("a#menu_leave_assignLeave");
     private SelenideElement allLeaveCheckbox = $("input#leaveList_chkSearchFilter_checkboxgroup_allcheck");

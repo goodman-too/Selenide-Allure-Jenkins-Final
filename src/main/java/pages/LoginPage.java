@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class LoginPage extends Header {
+public class LoginPage extends BasePage {
     //Locators:
     private SelenideElement loginField = $("input#txtUsername");
     private SelenideElement passwordField = $("input#txtPassword");

@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selectors.byXpath;
 import static com.codeborne.selenide.Selenide.$;
 
-public class AdminPage extends Header {
+public class AdminPage extends BasePage {
     //Locators:
     private SelenideElement addUserButton = $("input#btnAdd");
     private SelenideElement jobButton = $("a#menu_admin_Job");

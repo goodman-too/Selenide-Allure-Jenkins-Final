@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selectors.byXpath;
 import static com.codeborne.selenide.Selenide.$;
 
-public class PimPage extends Header {
+public class PimPage extends BasePage {
     //Locators:
     SelenideElement employeeNameLink = $(byXpath("//table[@id='resultTable']/tbody/tr/td[3]/a"));
     SelenideElement searchButton = $("input#searchBtn");

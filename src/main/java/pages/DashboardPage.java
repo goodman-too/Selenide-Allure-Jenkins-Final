@@ -6,7 +6,7 @@ import io.qameta.allure.Step;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
 
-public class DashboardPage extends Header {
+public class DashboardPage extends BasePage {
     //Locators:
     private SelenideElement quickLaunchFieldset = $("fieldset#panel_resizable_0_0");
     private SelenideElement chartFieldset = $("fieldset#panel_resizable_1_0");
